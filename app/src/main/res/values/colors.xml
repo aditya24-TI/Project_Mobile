@@ -1,8 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- Civic Horizon Core Brand Colors -->
+    <color name="civic_primary">#004D99</color>
+    <color name="civic_primary_container">#1565C0</color>
+    <color name="civic_on_primary">#FFFFFF</color>
+    <color name="civic_primary_fixed">#D6E3FF</color>
+    <color name="civic_primary_fixed_dim">#A9C7FF</color>
+
+    <color name="civic_secondary">#006876</color>
+    <color name="civic_secondary_container">#58E6FF</color>
+    <color name="civic_accent_cyan">#00BCD4</color>
+    <color name="civic_on_secondary">#FFFFFF</color>
+
+    <!-- Surfaces & Backgrounds -->
+    <color name="civic_background">#F9F9FF</color>
+    <color name="civic_surface">#F9F9FF</color>
+    <color name="civic_surface_card">#FFFFFF</color>
+    <color name="civic_surface_container_low">#F0F3FF</color>
+    <color name="civic_surface_container">#E7EEFF</color>
+    <color name="civic_surface_container_high">#DEE8FF</color>
+    <color name="civic_surface_container_highest">#D8E3FB</color>
+    <color name="civic_surface_dim">#CFDAF2</color>
+
+    <!-- Typography & Outlines -->
+    <color name="civic_on_surface">#111C2D</color>
+    <color name="civic_on_surface_variant">#424752</color>
+    <color name="civic_outline">#727783</color>
+    <color name="civic_outline_variant">#C2C6D4</color>
+
+    <!-- Status & Feedback -->
+    <color name="civic_status_open">#2E7D32</color>
+    <color name="civic_status_warning">#F57C00</color>
+    <color name="civic_status_danger">#C5242B</color>
+    <color name="civic_error">#BA1A1A</color>
+
+    <!-- Existing colors preserved for backward compatibility -->
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="biru">#4f90ff</color>
-    <color name="cyan">#1DE4F2</color>
-    <color name="orange">#FF6919</color>
+    <color name="biru">#1565C0</color>
+    <color name="cyan">#00BCD4</color>
+    <color name="orange">#F57C00</color>
 </resources>

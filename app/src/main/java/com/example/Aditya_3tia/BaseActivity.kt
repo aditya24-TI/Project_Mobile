@@ -1,7 +1,6 @@
 package com.example.Aditya_3tia
 
 import android.os.Bundle
-import android.widget.Toast
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -28,7 +27,10 @@ class BaseActivity : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, 0)
             insets
         }
+
         replaceFragment(HomeFragment())
+
+        // Bottom Navigation Listener for 4 Stitch items (Home, Search, Saved, Profile)
         binding.bottomNavView.setOnItemSelectedListener {
             when (it.itemId) {
                 R.id.home -> {
@@ -36,8 +38,13 @@ class BaseActivity : AppCompatActivity() {
                     true
                 }
 
-                R.id.message -> {
+                R.id.search -> {
                     replaceFragment(MessageFragment())
+                    true
+                }
+
+                R.id.saved -> {
+                    replaceFragment(SavedFragment())
                     true
                 }
 
@@ -55,6 +62,5 @@ class BaseActivity : AppCompatActivity() {
         supportFragmentManager.beginTransaction()
             .replace(binding.fragmentContainer.id, fragment)
             .commit()
-
     }
 }

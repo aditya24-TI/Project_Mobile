@@ -1,7 +1,13 @@
 <resources>
-    <string name="app_name">Aditya_3TIA</string>
+    <string name="app_name">Smart Public Facility</string>
     <string name="about">My favorite season is autumn. The leaves transform into brilliant reds, oranges, and yellows. Crisp, cool air makes outdoor activities comfortable and enjoyable. Harvest festivals and Halloween add excitement to the season. Everything about fall feels cozy and welcoming.</string>
-    <string name="deskripsi">Halaman Login</string>
-    <!-- TODO: Remove or change this placeholder text -->
+    <string name="deskripsi">Masuk ke Akun Warga</string>
+    <string name="civic_portal_title">Smart Public Facility</string>
+    <string name="civic_portal_subtitle">Sistem Informasi Fasilitas Umum Berbasis Smart City</string>
+    <string name="civic_official_portal">Portal Resmi Kota</string>
+    <string name="civic_live_iot">Live IoT</string>
+    <string name="civic_integrated_smart_city">Kota Cerdas Terintegrasi</string>
+    <string name="civic_active_services">148 Layanan Publik Aktif Hari Ini</string>
+    <string name="civic_search_placeholder">Cari fasilitas, rumah sakit, taman...</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
